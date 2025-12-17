@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online StopWatch</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Hello
+    <div id="mn-container">
+        <div class="watch-container"> 
+            <h1> Online Timer & StopWatch </h1>
+                <div class="time-container">
+                    <div class="minutes-ctn">00
+                        <div class="time-title-label">Minutes</div>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="seconds-ctn">00
+                        <div class="time-title-label">Seconds</div>
+                    </div>
+                    <span class="colon">:</span>
+                    <div class="centiseconds-ctn">00
+                        <div class="time-title-label">Centiseconds</div>
+                    </div>
+                </div>   
+
+             <div class="btn-container">
+                <button>Start</button>
+                <button>Reset</button>
+            </div>
+        </div>
+       
+    </div>
+    <script src="script.js"> </script>
 </body>
 </html>
