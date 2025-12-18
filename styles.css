@@ -1,5 +1,5 @@
 body {
-    background-color: #1f282a;
+    background-color: #3B4953;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -8,10 +8,11 @@ body {
 }
  #mn-container{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
  }
- .watch-container{
+ #watch-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,4 +41,41 @@ body {
     margin-bottom: 60px;
 
 }
+button{
+    font-family: 'GT Haptik Medium', sans-serif;
+    font-size: 27px;
+    font-weight: 200;
+    border:200px;
+    color: white;
+    padding: 1.25rem 2.5rem;
+    min-width: 250px;
+    height: auto;
+    border-radius: 200px;
+    margin: 20px;
+}
+.start-btn{
+background-color:#24bf3bd1;
+transition:background-color 0.4s ease;
 
+}
+.start-btn:hover{
+    background-color:#0d3813;
+}
+.reset-btn{
+    background-color: #0d3813;
+    transition:background-color 0.4s ease;
+}
+.reset-btn:hover{
+    background-color: #ffffff;
+    color: #24bf3bd1;
+}
+#date-ctn{
+    display: flex;
+    justify-content: center;
+    background-color: #EBE1D1;
+    color: black;
+}
+.layer{
+    width:100%;
+    height:100vh;
+}
