@@ -4,5 +4,14 @@ let startTime;
 let elapsedTime = 0;
 let timerInterval;
 let isRunning = false;
-const start = document.getElementById("start-btn");
-const reset = document.getElementById("reset-btn");
+const startButton = document.getElementById("start-btn");
+const resetButton = document.getElementById("reset-btn");
+startButton.addEventListener("click",start);
+resetButton.addEventListener("click",reset);
+function start(){
+    startButton.textContent = "Pause";
+
+}
+function reset(){
+    startButton.textContent = "Start";
+}
