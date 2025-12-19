@@ -10,8 +10,17 @@ startButton.addEventListener("click",start);
 resetButton.addEventListener("click",reset);
 function start(){
     startButton.textContent = "Pause";
-
+    if(this.textContent === "Pause"){
+        startButton.addEventListener("click",pause);
+    }
 }
 function reset(){
     startButton.textContent = "Start";
+}
+function pause(){
+    startButton.textContent = "Resume";
+    startButton.addEventListener("click",resume);
+}
+function resume(){
+    
 }
