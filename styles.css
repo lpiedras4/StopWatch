@@ -28,14 +28,12 @@ body {
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
  }
-  #time-display >div{
+  #time-display > div{
     display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 17vw;
-    line-height: 1;
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
+    flex-direction: column;
+    align-items: center;
+    width: 24vw;
+    text-align: center;
  }
 .time-title-label{
     display: block;
