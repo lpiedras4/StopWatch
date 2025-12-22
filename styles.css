@@ -19,13 +19,12 @@ body {
     justify-content: center;
     margin: 30px auto;
  }
- .time-container{
+ #time-display{
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 17vw;
     line-height: 1;
-    
  }
 .time-title-label{
     display: block;
